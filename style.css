@@ -1,0 +1,11 @@
+.error {
+	color: red;
+}
+
+.display-none {
+	display: none;
+}
+
+.completed {
+	text-decoration: line-through;
+}
