@@ -6,9 +6,30 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Пример fetch</title>
+	<style>
+		.error {
+			color: red;
+		}
+	
+		.display-none {
+			display: none;
+		}
+	</style>
 </head>
 
 <body>
+	<form class="input">
+		<input type="text" id="user-id" placeholder="ID">
+		<button id="submit">Получить список задач</button>
+	</form>
+	
+	<br>
+	
+	<div class="output">
+		<p class="error display-none">Пользователь с указанным id не найден</p>
+		<ul></ul>
+	</div>
+
 	<script src="script.js"></script>
 </body>
 
